@@ -1,0 +1,55 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+}
+
+.table {
+  /*margin: 40px;*/
+  width: 656px;
+  height: 656px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.cell {
+  background-color: white;
+  border: 1px solid lightgray;
+  text-align: center;
+  /*display: inline-flex;*/
+  float: left;
+  height: 80px;
+  width: 80px;
+  font-size: 40px;
+}
+
+
+.cell:hover {
+  background-image: url('./images/yellow.jpg');
+}
+
+.cell:active {
+  background-image: url('./images/blu.jpg');
+}
+
+.GREEN {
+  background-image: url('./images/green.jpg');
+}
+
+.BLU {
+  background-image: url('./images/blu.jpg');
+}
+
+.WHITE {
+  background-image: url('./images/white.jpg');
+}
+
+.BLACK {
+  color: white;
+  background-image: url('./images/black.jpg');
+}
